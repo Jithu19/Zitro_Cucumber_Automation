@@ -12,12 +12,18 @@
 
 Clone this automation framework project in your folder.
 1. Navigate to your project directory and open a terminal or Command Prompt window and navigate to the root folder of your automation project.
-2. Execute the test command Run the following Maven command to execute your tests with specific tags
-	eg: mvn clean test -Dcucumber.filter.tags="@SmokeTest" && D:\Workspace\Git\Projects\Zitro_Cucumber_Automation\allure-commandline\bin\allure.bat generate target\allure-results --clean -o allure-report
-	This command will run the 3 automated Smoke test cases in the Chrome browser
+2. Execute the test command Run the following Maven command to execute your tests with specific tags.	
+ 
+ 	eg: mvn clean test -Dcucumber.filter.tags="@SmokeTest" && D:\Workspace\Git\Projects\Zitro_Cucumber_Automation\allure-commandline\bin\allure.bat generate target\allure-results --clean -o allure-report
+	
+ 	This command will run the 3 automated Smoke test cases in the Chrome browser.
+ 
 3. Once the execution is complete, Allure and Cucumber reports wll be generated.
-	Allure report path: D:\Workspace\Git\Projects\Zitro_Cucumber_Automation\allure-report\index.html
-	Cucumber report path: D:\Workspace\Git\Zitro_Automation\target\cucumber-reports\Html.html
+	
+ 	Allure report path: D:\Workspace\Git\Projects\Zitro_Cucumber_Automation\allure-report\index.html
+ 
+ 	Cucumber report path: D:\Workspace\Git\Zitro_Automation\target\cucumber-reports\Html.html
+ 
 4. View the reports using firefox.
 
 ***Firefox Configuration for Allure Report Access***
