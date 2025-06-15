@@ -1,0 +1,7 @@
+<suite name="CucumberSuite" parallel="false">
+    <test name="CucumberTest">
+        <classes>
+            <class name="runner.TestRunner" />
+        </classes>
+    </test>
+</suite>
